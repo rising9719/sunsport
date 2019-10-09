@@ -1,2 +1,3 @@
 User-agent: *
 Disallow: 
+Sitemap: https://sunsquarez.github.io/sitemap.xml
