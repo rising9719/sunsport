@@ -1,19 +1,11 @@
 /*!
-  * vue-router v3.4.3
+  * vue-router v3.4.9
   * (c) 2020 Evan You
   * @license MIT
   */
 
 /*!
- * ------------------------------
- * Vue-Tilt.js - Based on Vanilla-Tilt ()
- * https://github.com/frogbob/vue-tilt.js
- * license: MIT license (http://opensource.org/licenses/MIT)
- * ------------------------------
- */
-
-/*!
- * BootstrapVue Icons, generated from Bootstrap Icons 1.0.0
+ * BootstrapVue Icons, generated from Bootstrap Icons 1.2.1
  *
  * @link https://icons.getbootstrap.com/
  * @license MIT
@@ -39,7 +31,7 @@
  */
 
 /*!
- * vuex v3.5.1
+ * vuex v3.6.0
  * (c) 2020 Evan You
  * @license MIT
  */
