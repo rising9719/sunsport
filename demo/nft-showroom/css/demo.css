@@ -328,9 +328,8 @@ a:focus {
 
 .menu__item {
 	font-size: 7vh;
-	margin: 0.25em 0;
+	margin: 0.5em 0;
 	padding: 0;
-	text-transform: lowercase;
 }
 
 .menu__item--current {
@@ -344,6 +343,7 @@ a:focus {
 .menu__link:focus,
 .menu__link:hover {
 	color: #1f1f21;
+	outline: none;
 }
 
 .info {

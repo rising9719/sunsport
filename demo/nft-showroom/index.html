@@ -14,6 +14,16 @@
 		<script>document.documentElement.className = 'js';</script>
 	</head>
 	<body>
+		<svg class="hidden">
+			<symbol id="icon-menu" viewBox="0 0 24 24">
+				<title>menu</title>
+				<path d="M24,5.8H0v-2h24V5.8z M19.8,11H4.2v2h15.6V11z M24,18.2H0v2h24V18.2z"/>
+			</symbol>
+			<symbol id="icon-cross" viewBox="0 0 24 24">
+				<title>cross</title>
+				<path d="M13.4,12l7.8,7.8l-1.4,1.4l-7.8-7.8l-7.8,7.8l-1.4-1.4l7.8-7.8L2.7,4.2l1.4-1.4l7.8,7.8l7.8-7.8l1.4,1.4L13.4,12z"/>
+			</symbol>
+		</svg>
 		<div class="container">
 			<div class="scroller">
 				<div class="room room--current">
@@ -49,8 +59,15 @@
 				<button class="btn btn--info btn--toggle">
 				</button>
 				<button class="btn btn--menu btn--toggle">
+					<svg class="icon icon--menu"><use xlink:href="#icon-menu"></use></svg>
+					<svg class="icon icon--cross"><use xlink:href="#icon-cross"></use></svg>
 				</button>
 				<div class="overlay overlay--menu">
+					<ul class="menu">
+						<li class="menu__item"><a class="menu__link" href="https://theotherleaf.com/demo/nft-collection/" target="_blank">NFT Minting Dapp</a></li>
+						<li class="menu__item"><a class="menu__link" href="https://coin-dapp-demo.vercel.app/" target="_blank">MemeCoin Portal Dapp</a></li>
+						<li class="menu__item"><a class="menu__link" href="https://wave-dapp-demo.vercel.app/" target="_blank">Wave Portal Dapp</a></li>
+					</ul>
 				</div>
 				<div class="overlay overlay--info">
 				</div>
