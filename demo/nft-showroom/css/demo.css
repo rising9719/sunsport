@@ -39,7 +39,7 @@ a:focus {
   width: 1.5em;
   height: 1.5em;
   margin: 0 auto;
-  fill: currentColor;
+  fill: #1f1f21;
 }
 
 .btn {
@@ -52,10 +52,6 @@ a:focus {
 
 .btn:focus {
   outline: none;
-}
-
-.btn:hover {
-  color: #c2292e;
 }
 
 .btn--nav {
@@ -417,6 +413,10 @@ a:focus {
   }
 
   .grid {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     width: 100%;
     margin-top: 48px;
     padding: 16px;
@@ -424,6 +424,7 @@ a:focus {
 
   .grid-item {
     max-width: 100%;
+    width: 300px;
   }
 
   .grid-item:not(:last-child) {
