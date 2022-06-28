@@ -424,7 +424,7 @@ a:focus {
 
   .grid-item {
     max-width: 100%;
-    width: 300px;
+    width: 400px;
   }
 
   .grid-item:not(:last-child) {
