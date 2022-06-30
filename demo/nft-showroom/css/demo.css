@@ -193,6 +193,7 @@ a:focus {
 /* Inner elements */
 .room__asset {
   flex: none;
+  height: 100%;
   max-width: 40%;
   max-height: 60%;
   margin: 0 5%;
